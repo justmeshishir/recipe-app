@@ -1,0 +1,60 @@
+[debug] [2021-06-18T11:39:21.792Z] ----------------------------------------------------------------------
+[debug] [2021-06-18T11:39:21.794Z] Command:       /Users/shishir/.nvm/versions/node/v15.14.0/bin/node /Users/shishir/.nvm/versions/node/v15.14.0/bin/firebase init
+[debug] [2021-06-18T11:39:21.795Z] CLI Version:   9.13.1
+[debug] [2021-06-18T11:39:21.795Z] Platform:      darwin
+[debug] [2021-06-18T11:39:21.795Z] Node Version:  v15.14.0
+[debug] [2021-06-18T11:39:21.796Z] Time:          Fri Jun 18 2021 17:24:21 GMT+0545 (Nepal Time)
+[debug] [2021-06-18T11:39:21.796Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-06-18T11:39:21.802Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-06-18T11:39:21.802Z] > authorizing via signed-in user (shishirthapa1@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/shishir/Desktop/codehome/personal/recipie-app-reactjs
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-06-18T11:39:49.199Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-06-18T11:39:50.111Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-06-18T11:39:50.111Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project reactrecipe-4899a (ReactRecipe) 
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Detected a .git folder at /Users/shishir/Desktop/codehome/personal/recipie-app-reactjs 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=149082919&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2021-06-18T11:40:15.696Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"87bdb60ab17d42c52afa","redirect_uri":"http://localhost:9005","state":"149082919"}
+[debug] [2021-06-18T11:40:16.334Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Fri, 18 Jun 2021 11:40:16 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, Accept-Encoding, Accept, X-Requested-With","permissions-policy":"interest-cohort=()","etag":"W/\"8c3c8db21923d2332df946be22b033da\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com html-translator.herokuapp.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-3f088aa2.js gist.github.com/socket-worker-3f088aa2.js","x-github-request-id":"69C1:31F5:BD6D22:D1036B:60CC861F"}
+[debug] [2021-06-18T11:40:16.341Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2021-06-18T11:40:17.012Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2021-06-18T11:40:17.013Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"justmeshishir","id":20252782,"node_id":"MDQ6VXNlcjIwMjUyNzgy","avatar_url":"https://avatars.githubusercontent.com/u/20252782?v=4","gravatar_id":"","url":"https://api.github.com/users/justmeshishir","html_url":"https://github.com/justmeshishir","followers_url":"https://api.github.com/users/justmeshishir/followers","following_url":"https://api.github.com/users/justmeshishir/following{/other_user}","gists_url":"https://api.github.com/users/justmeshishir/gists{/gist_id}","starred_url":"https://api.github.com/users/justmeshishir/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/justmeshishir/subscriptions","organizations_url":"https://api.github.com/users/justmeshishir/orgs","repos_url":"https://api.github.com/users/justmeshishir/repos","events_url":"https://api.github.com/users/justmeshishir/events{/privacy}","received_events_url":"https://api.github.com/users/justmeshishir/received_events","type":"User","site_admin":false,"name":null,"company":"@CubedStepsTechnology","blog":"","location":"Kathmandu","email":"shishirthapa1@gmail.com","hireable":null,"bio":"Technical Lead","twitter_username":null,"public_repos":48,"public_gists":0,"followers":27,"following":34,"created_at":"2016-07-02T06:28:31Z","updated_at":"2021-06-18T11:40:14Z","private_gists":0,"total_private_repos":9,"owned_private_repos":9,"disk_usage":515425,"collaborators":6,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] ✔  Success! Logged into GitHub as justmeshishir 
+[info] 
+[debug] [2021-06-18T11:40:30.967Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2021-06-18T11:40:31.567Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2021-06-18T11:40:31.568Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-06-18T11:40:37.087Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2021-06-18T11:40:37.607Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2021-06-18T11:40:37.608Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-06-18T11:40:42.118Z] >>> [apiv2][query] GET https://api.github.com/repos/y/actions/secrets/public-key type=owner
+[debug] [2021-06-18T11:40:42.729Z] <<< [apiv2][status] GET https://api.github.com/repos/y/actions/secrets/public-key 404
+[debug] [2021-06-18T11:40:42.729Z] <<< [apiv2][body] GET https://api.github.com/repos/y/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
